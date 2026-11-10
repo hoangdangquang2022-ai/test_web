@@ -1,32 +1,25 @@
-# Bright English
+# Mộc Store — Demo website bán hàng
 
-A responsive English-learning dashboard built with React and Vite.
+Website thương mại điện tử demo xây dựng bằng React 18 và Vite.
 
-## Features
+## Tính năng
+- Giao diện responsive cho desktop và mobile
+- Danh sách sản phẩm mẫu, lọc theo danh mục, tìm kiếm và sắp xếp giá
+- Thêm sản phẩm vào giỏ, tăng/giảm số lượng, tính tổng tiền và phí giao hàng
+- Form thông tin giao hàng và xác nhận đơn hàng demo
+- Thông báo thao tác và form đăng ký nhận tin
 
-- Learning dashboard with weekly goals and activity stats
-- Vocabulary of the day with browser text-to-speech pronunciation
-- Vocabulary, listening, grammar and speaking learning cards
-- Interactive quick quiz with answer feedback
-- Responsive desktop and mobile layout
-
-## Getting started
-
+## Chạy local
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
-
+## Build production
 ```bash
 npm run build
+npm run preview
 ```
 
-## Tech stack
-
-- React 18
-- Vite 5
-- Plain CSS
-
-This is the first UI prototype. User accounts, saved progress, lesson content management and backend persistence can be added in later iterations.
+## Lưu ý
+Đây là bản demo frontend: dữ liệu giỏ hàng chỉ tồn tại trong phiên trình duyệt; đặt hàng không gửi tới máy chủ, không thu tiền thật và chưa có quản trị, tài khoản hoặc cơ sở dữ liệu.
